@@ -294,7 +294,18 @@ main article picture img {
     grid-row: 2/3;
 }
 
+.tarjetas {
+    max-width: 420px;
+}
 
+
+/* Efectos sobre bootstrap */
+
+.card {
+    border: none;
+    align-items: center;
+    text-align: center;
+}
 
 
 
@@ -415,5 +426,4 @@ footer p {
 }
 
 }
-
 
