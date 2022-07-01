@@ -1,4 +1,14 @@
 /* MISC */
+/* Variables */
+.text--purificador {
+  color: #3290bc; }
+
+.text--repuestos {
+  color: #317899; }
+
+.text--ducha {
+  color: #46a8d5; }
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +23,24 @@ body {
   body h2 {
     padding: 1rem; }
 
+/* Mixins */
 /* PARTIALS */
+footer {
+  border-radius: 5px;
+  background-color: #388AB0;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-around;
+  display: flex;
+  padding: 20px;
+  align-items: center; }
+  footer picture {
+    flex-basis: 40%; }
+  footer footer p {
+    text-align: right;
+    flex-basis: 60%;
+    padding-right: 10%; }
+
 header {
   border-radius: 5px;
   padding: 20px;
@@ -37,3 +64,30 @@ header {
     flex-basis: 60%; }
 
 /* VIEWS */
+.imagen__inicio2 {
+  border-radius: 10px;
+  width: 100%;
+  height: 1500px; }
+
+.section__video {
+  width: 100%;
+  padding-bottom: 1rem; }
+
+.video {
+  height: 500px;
+  width: 100%; }
+
+.form, .form_text, .form_campo {
+  margin-left: 30%;
+  margin-right: 30%;
+  text-decoration: overline; }
+
+.form_text {
+  margin-left: auto;
+  margin-right: auto;
+  color: blue; }
+
+.form_campo {
+  margin-left: auto;
+  margin-right: auto;
+  color: darkblue; }
