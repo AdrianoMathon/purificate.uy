@@ -24,4 +24,14 @@ header {
     nav ul {
         flex-basis: 60%;
     }
+    
+}
+@media screen and (max-width: 480px) {
+    header .menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    header {
+        padding: 10px;
+    }
 }
