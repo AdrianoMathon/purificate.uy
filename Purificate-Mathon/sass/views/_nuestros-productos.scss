@@ -1,0 +1,45 @@
+.containerCS {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2%;
+    gap: 2rem;
+}
+
+.purificador {
+    grid-column: 1/2;
+    grid-row: 1/2;
+/*     max-width: 500px;
+    max-height: 500px; */
+}
+
+.parrafo__purificador{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.ducha {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.parrafo__ducha {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.repuestos {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.parrafo__repuestos {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}

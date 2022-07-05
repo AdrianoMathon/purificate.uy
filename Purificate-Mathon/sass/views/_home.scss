@@ -2,5 +2,92 @@
     border-radius: 10px;
     width:100%;
     height: 1500px;
-    
 }
+
+.parrafo__titulo {
+    text-align:center;
+    color:#388AB0;
+    font-size:35px;
+    text-decoration:underline;
+    justify-content: center;
+    padding:10px;
+}
+
+.parrafo__contenido {
+    text-align: center;
+    font-size:18px;
+    padding:5px;
+}
+
+main article picture img {
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    border-radius: 5px;
+}
+
+
+#filtrados {
+        padding: 2rem;
+        .filtrados {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto auto;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin: 0 auto;
+            gap: 2rem;
+        } 
+    }
+
+    .cilindro {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        transition: all 1s;
+        &:hover {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            transform: scale(1.05)
+        }
+    }
+    
+
+    
+    .parrafo__cilindro {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    .domo {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        transition: all 1s;
+        &:hover {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            transform: scale(1.05)
+        }
+    }
+      
+    .parrafo__domo {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    
+    .piedras {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        transition: all 1s;
+        &:hover {
+            grid-column: 3/4;
+            grid-row: 1/2;
+            transform: scale(1.05)
+        }  
+    }  
+    .parrafo__piedras {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+

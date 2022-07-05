@@ -18,5 +18,15 @@ body  {
 
 }
 
+a {
+    color:white;
+    text-decoration:underline;
+    padding: 0.7rem 0.7rem;
+    &:hover {
+        color: white;
+    }
+}
+
+
 
 
