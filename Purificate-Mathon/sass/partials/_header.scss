@@ -4,18 +4,15 @@ header {
     background-color: #388AB0;  
     width: 100%;  
     align-items: center;
-
     .menu {
         display: flex;
         align-items: center;
         justify-content: space-around;
-
         &__item {
             display: inline-block;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin-left: 5px;   
         }
-
     }
     nav picture {
         flex-basis:40%;
@@ -27,5 +24,4 @@ header {
     nav ul {
         flex-basis: 60%;
     }
-
 }

@@ -13,14 +13,12 @@
     padding: 2%;
     gap: 2rem;
 }
-
 .purificador {
     grid-column: 1/2;
     grid-row: 1/2;
 /*     max-width: 500px;
     max-height: 500px; */
 }
-
 .parrafo__purificador{
     grid-column: 2/3;
     grid-row: 1/2;
@@ -29,7 +27,6 @@
     grid-column: 2/3;
     grid-row: 2/3;
 }
-
 .parrafo__ducha {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -38,7 +35,6 @@
     grid-column: 1/2;
     grid-row: 3/4;
 }
-
 .parrafo__repuestos {
     grid-column: 2/3;
     grid-row: 3/4;
