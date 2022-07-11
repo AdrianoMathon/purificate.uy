@@ -298,3 +298,6 @@ main article picture img {
   margin-left: auto;
   margin-right: auto;
   color: darkblue; }
+
+form label {
+  display: block; }
