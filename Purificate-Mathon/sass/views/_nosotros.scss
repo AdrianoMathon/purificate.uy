@@ -10,5 +10,9 @@
 .parrafo_nosotros {
     @extend %pcentrado;
     width: 75%;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.parrafo_tarjetas {
+    @extend %pjustificado;
 }

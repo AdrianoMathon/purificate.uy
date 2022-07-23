@@ -15,6 +15,9 @@ header {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin-left: 5px;   
         }
+        &__div {
+            justify-content: inherit!important;
+        }
     }
     nav div {
 
