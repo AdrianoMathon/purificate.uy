@@ -6,3 +6,9 @@
     align-items: center;
     text-align: center;
 }
+
+.parrafo_nosotros {
+    @extend %pcentrado;
+    width: 75%;
+    padding-bottom: 1rem;
+}

@@ -16,7 +16,7 @@
 }
 .parrafo__contenido {
     text-align: justify;
-    font-size:18px;
+    font-size: 20px;
     padding:5px;
     margin: auto;
     width: 80%;
@@ -55,6 +55,7 @@ main article picture img {
     .parrafo__cilindro {
         grid-column: 1/2;
         grid-row: 2/3;
+        @extend %pjustificado;
     }
     .domo {
         grid-column: 2/3;
@@ -69,6 +70,7 @@ main article picture img {
     .parrafo__domo {
         grid-column: 2/3;
         grid-row: 2/3;
+        @extend %pjustificado;
     }
     .piedras {
         grid-column: 3/4;
@@ -83,9 +85,10 @@ main article picture img {
     .parrafo__piedras {
         grid-column: 3/4;
         grid-row: 2/3;
+        @extend %pjustificado;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 800px) {
         #filtrados .filtrados {
             grid-template-rows: repeat(6, auto);
             grid-template-columns: auto;

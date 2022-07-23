@@ -11,8 +11,7 @@
         padding-bottom: 50px;
         color: black;
         font-weight: 300;
-        font-size: 22px;
-        text-align: center;;
+        @extend %pcentrado;
 
         @media only screen and (max-width: 991px){
         width: 75%;

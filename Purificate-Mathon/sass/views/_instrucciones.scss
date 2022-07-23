@@ -5,6 +5,11 @@
 .video {
     @include sizes(100%, 500px)
 }
+
+.parrafo_instrucciones {
+    @extend %pcentrado;
+    padding-bottom: 2rem;
+}
 @media screen and (max-width: 480px) {
     .video {
         height: 350px;
