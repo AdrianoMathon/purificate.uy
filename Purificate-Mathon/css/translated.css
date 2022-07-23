@@ -24,11 +24,10 @@ body {
     padding: 1rem; }
 
 a {
-  color: white;
-  text-decoration: underline;
-  padding: 0.7rem 0.7rem; }
-  a:hover {
-    color: white; }
+  padding: 0.6rem 0.6rem !important;
+  font-size: 1.1rem !important;
+  color: white !important;
+  text-align: center; }
 
 /* Mixins */
 /* PARTIALS */
@@ -58,25 +57,35 @@ footer {
 
 header {
   border-radius: 5px;
-  padding: 20px;
+  padding: 10px;
   background-color: #388AB0;
   width: 100%;
   align-items: center; }
   header .menu {
     display: flex;
     align-items: center;
-    justify-content: space-around; }
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 3rem; }
     header .menu__item {
       display: inline-block;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin-left: 5px; }
-  header nav picture {
-    flex-basis: 40%; }
-    header nav picture img {
-      max-width: 225px;
-      max-height: 60px; }
-  header nav ul {
-    flex-basis: 60%; }
+  header nav div div {
+    justify-content: end; }
+    @media only screen and (max-width: 991px) {
+      header nav div div {
+        display: flex;
+        justify-content: center;
+        margin: auto; } }
+    header nav div div ul li a:hover {
+      transform: scale(1.03);
+      border-bottom: 0.1px white solid;
+      border-top: 0.1px white solid;
+      transition: all 0.7s; }
+  header nav div img {
+    max-width: 225px;
+    max-height: 60px; }
 
 @media screen and (max-width: 480px) {
   header .menu {

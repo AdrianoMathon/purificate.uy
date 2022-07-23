@@ -15,12 +15,10 @@ body  {
     }
 }
 a {
-    color:white;
-    text-decoration:underline;
-    padding: 0.7rem 0.7rem;
-    &:hover {
-        color: white;
-    }
+    padding: 0.6rem 0.6rem!important;
+    font-size: 1.1rem!important;
+    color: white!important;
+    text-align: center;
 }
 
 
