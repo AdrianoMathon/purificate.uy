@@ -8,25 +8,36 @@ footer {
     padding: 20px;
     align-items: center;
     & picture {
+        padding-left: 2rem;
         flex-basis:40%;
     }
-    footer p {
+    div {
         text-align:right;
         flex-basis:60%;
-        padding-right: 10%;   
+        padding-right: 5%;
+        p{
+            margin-bottom: 0;
+        }   
     }
     img {
         max-width: 225px;
         max-height: 60px;
     }
-    @media screen and (max-width: 480px) {
-        footer {
-            flex-direction: column;
-        }
-        footer p {
-            text-align: center;
-        }
-}
 }
 
+@media screen and (max-width: 480px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        div {
+            margin-top: 1rem;
+            text-align: center;
+            padding: 0;
+        }
+        picture {
+            padding: 0;
+        }
+    }
+
+}
 

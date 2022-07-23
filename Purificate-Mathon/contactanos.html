@@ -46,49 +46,65 @@
                 </div>
               </nav>
         </header>
+        <section class="contacto">
+          <h1>Contactate con nosotros</h1>
+          <p>Cualquier tipo de consulta sobre los productos o para realizar un pedido, no dudes en escribirnos y nos pondremos en contacto contigo.</p>
+      </section>
+ 
+      <section class="container">
+      <div class="row">
+         <div class="col-lg-8 col-sm-12">
+           <form class="container">
+             <div class="mb-3">
+                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                 <input type="email" class="form-control" id="exampleFormControlInput1">
+             </div>
+             <div class="mb-3">
+                 <label for="exampleFormControlInput1" class="form-label">Mail</label>
+                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+             </div>
+             <div class="mb-3">
+                 <label for="exampleFormControlInput1" class="form-label">Celular</label>
+                 <input type="email" class="form-control" id="exampleFormControlInput1">
+             </div>
+             <div class="mb-3">
+                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+             </div>
+             <button type="submit" class="boton-contacto">Enviar</button>
+           </form>
+         </div>
+         <div class="datos-contacto col-lg-4 col-sm-12">
+           <div class="contacto-telefono">
+             <img src="./img/tel-contacto.svg" alt="icono telefono">
+             <p>
+               091456878
+             </p>
+           </div>
+           <div class="contacto-ubicacion">
+             <img src="./img/ubicacion-contacto.svg" alt="icono ubicacion">
+             <p>
+               Montevideo, Uruguay.
+             </p>
+           </div>
+           <div class="contacto-mail">
+             <img src="./img/mail-contacto.svg" alt="icono email">
+             <p>
+               contacto@purificate.uy
+             </p>
+           </div>
+         </div>
+       </div>
+     </section>
 
-    <section class="d-flex justify-content-center p-3">
-		<article>
-			<form action="#">
-
-				<label class="p-2" for="Nombre">Nombre
-                    <input type="Nombre"> <br>
-                </label>
-                <label class="p-2" for="Apellido">Apellido
-                    <input type="Apellido"> <br>
-                </label>
-				<label class="p-2" for="email">Mail de contacto:
-					<input type="email" placeholder="" name="email"><br>
-				</label>
-				<label class="p-2" for="Observaciones"> Observaciones:<br>
-					<textarea></textarea>
-				</label>
-                <p>¿Edad?</p>
-				<input type="number" placeholder="Seleccioná tu edad"><br>
-				<p>¿Podríamos contactarte?</p>
-				<select name="Opciones" id="Opciones">
-					<option value="No">No</option>
-					<option value="Si">Si</option>
-                
-				</select>
-                
-				<div>¿Te gustaría recibir nuestras ofertas por mail?
-				<input type="checkbox" name="acepta" value="1"></div>
-				<input type="submit" value="Enviar datos">
-				<input type="reset" value="Borrar datos">
-			</form>
-		</article>
-	</section>
-
-    <footer>
-
-        <picture>    
-            <img src="./img/logo.png" alt="Logo">
-        </picture>
-        
-        <p><b>Horario:</b> Lunes a viernes de 10:00hs a 18:00hs <b>Contacto:</b> contacto@purificate.uy</p>
-        
-        
+  <footer>
+    <picture>    
+        <img src="./img/logo.png" alt="Logo">
+    </picture>
+    <div>
+        <p><b>Horario:</b> Lunes a viernes de 10:00hs a 18:00hs</p>
+        <p><b>Contacto:</b> contacto@purificate.uy</p>
+    </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

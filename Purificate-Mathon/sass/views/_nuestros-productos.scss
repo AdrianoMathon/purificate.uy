@@ -39,6 +39,11 @@
     grid-column: 2/3;
     grid-row: 3/4;
 }
+
+.parrafos_productos {
+    text-align: justify;
+}
+
 @media screen and (max-width: 480px) {
         .grilla {
             grid-template-rows: repeat(6, auto);
